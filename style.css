@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: black;
+  height: 8vh;
+}
+
+.navbar nav {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar nav li {
+  color: white;
+  list-style: none;
+  margin: 30px;
+  padding: 5px 20px 5px 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar nav li:hover {
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-container {
+  background-color: rgb(240, 240, 233);
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.dev-pic {
+  margin: 140px 0 0px 85px;
+  height: 35vh;
+  display: flex;
+}
+.dev-pic img {
+  height: 35vh;
+}
+
+.dev-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto 55px;
+  font-family: "Titillium Web", sans-serif;
+}
+.dev-content h1 {
+  width: 30vw;
+  font-size: 50px;
+}
+.dev-content p {
+  font-family: "Titillium Web", sans-serif;
+}
+.cv-btn{
+  height: 7vh;
+  width: 12vw;
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+}
+.cv-btn:hover{
+ cursor: pointer;
+ background-color: #fff;
+ color: black;
+}
+footer{
+  background-color: black;
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  height:7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
